@@ -7,7 +7,7 @@ alert("Welcome to my portfolio! You are viewing this page on\n" + date.getHours(
 function showSection(sectionId) {
     const section = document.getElementById(sectionId);
     if (section) {
-        section.scrollIntoView({ behavior: 'instant' });
+        section.scrollIntoView({ behavior: 'smooth' });
     }
 }
 
