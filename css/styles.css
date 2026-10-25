@@ -11,6 +11,14 @@ body {
     background: #f4f7f9;
 }
 
+body[data-theme="dark"] {
+    background: #263238;
+}
+body[data-theme="light"] {
+    background: #f4f7f9;
+}
+
+
 main {
     width: min(100%, 1000px);
     margin: 0 auto;
@@ -120,6 +128,21 @@ h2 {
 
 #contact a:hover,
 #contact a:focus-visible {
+    background: #12566d;
+}
+
+#themeBtn {
+    display: inline-block;
+    padding: 8px 14px;
+    color: #fff;
+    background: #176b87;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1px 0;
+}
+
+#themeBtn:hover,
+#themeBtn:focus-visible {
     background: #12566d;
 }
 
