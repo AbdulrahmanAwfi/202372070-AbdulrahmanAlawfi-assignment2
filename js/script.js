@@ -21,6 +21,6 @@ function toggleTheme() {
     localStorage.setItem("theme", newTheme);
 }
     else {
-        alert("Error: failed to retrieve theme from localStorage, refresh the page.");
+        alert("Error: failed to retrieve theme from localStorage, refresh the page."); //task 5, error ahndling and user feedback is done here
     }
 }
