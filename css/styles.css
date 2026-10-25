@@ -77,6 +77,26 @@ h2 {
     margin: 0;
 }
 
+#navigation {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+#navigation button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 14px;
+    color: #fff;
+    background: #176b87;
+    border-radius: 5px;
+}
+
+#navigation button:hover,
+#navigation button:focus-visible {
+    background: #12566d;
+}
+
 #contact > div:last-child {
     display: flex;
     flex-wrap: wrap;
@@ -88,7 +108,7 @@ h2 {
     margin: 0;
 }
 
-#contact a {
+#contact a  {
     display: inline-block;
     padding: 8px 14px;
     color: #fff;
